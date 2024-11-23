@@ -1,6 +1,8 @@
+import styles from './styles.module.css';
+
 function ProjectsPage(){
     return (
-        <div>
+        <div className={styles.projects}>
             <h1>Projects Page</h1>
         </div>
     )
